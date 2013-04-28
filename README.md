@@ -105,7 +105,7 @@ When prompted for a directory installing Windows apps -- not just for Git but in
 
 The next page will ask you to select components, including an option for Windows Explorer integration.  Here I recommend you select "Simple Context Menu", which will enable "Git Bash Here" and "Git Gui Here" as shown below.  
 
-<img src="images/git_select_components" />
+<img src="images/git_select_components.jpg" />
 
 You can select "Use Git Bash Only" or "Run Git from the Windows Command Prompt" -- this is pretty much a matter of taste.  I usually go with "Use Git Bash Only".  On the dialog for configuring line endings, I usually accept the defaults.
 
