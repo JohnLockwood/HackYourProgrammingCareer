@@ -73,23 +73,40 @@ Almost all professional development teams -- and in any case all of the ones whe
 
 * They allow you to compare one version of a file to another to see (for example)where a bug was introduced.
 
-* They allow you to roll back a single file, a set of files, or a whole project to an earlier state.
+* They allow you to "roll back" -- undo changes to -- a single file, a set of files, or a whole project to an earlier state.
 
 One version control system that's become quite popular in recent years is Git.Git works by letting you have your own full copy of your version control repository stored on your local machine. This allows remote teams to work independently without always being in touch with a central repository server. Because of this, Git has gained a rapid following on open source projects. Many of these are hosted on a very popular service, Github, which allows free accounts for open source projects and their contributors.
 
 Having a Github account allows you to learn about how to use version control in a software team environment, but just as importantly, it allows you to demonstrate that you can use version control in a team environment.
 
-### Setting Up an Account
+# Career Tip #2
 
-To get started using Github and Git, point your browser to Github.com. There you'll see a sign up form where you can get started:
+Programmers use version control software. Period. Showing up for a programming interview without knowing any kind of version control 
+software is like showing up to a gunfight with a feather duster.
+
+### Setting Up A GitHub Account
+
+To get started using Github and Git, point your browser to [Github.com](http://www.github.com). There you'll see a sign up form where you can get started:
+
+<img src="images/github_signup.jpg">
 
 Pick a username you can live with (remember that you may show this to a future employer, so keep it clean and professional -- your name is a good choice), and enter your email address and password.
 
 Once you've signed in by creating your account, you'll want to click the button that says Set Up Git.
 
-On their setup page, GitHub now features a link to GitHub for Windows, which is currently these easiest way to install and configure Git on a Windows environment.  Click this link and run the installer.
+<img src="images/github_setup_button.jpg">
 
-[JCL More Needed]
+On their [setup page](https://help.github.com/articles/set-up-git), GitHub features a link to "Skip the Guide" by installing GitHub for Windows.  This is the easiest way to install and configure Git on a Windows environment.  Click this link and run the installer.
+
+When prompted for a directory installing Windows apps, I make a habit of installing to a directory without spaces, as it makes tools much easier to use from the command line.  I usually set up a root directory, "C:\apps" to put applications, instead of using the default "Program Files" directory.
+
+Once you've installed GitHub for Windows, you can sign in using the user name and password of your account.
+
+<img src="images/git_windows_page1.jpg">
+
+Then you should press "configure" to write some basic user information to .gitconfig (located in your "Users\YourUsername") directory.
+
+GitHub for Windows provides a fairly user-friendly, graphical tool for working with git.  
 
 ### Forking a Repository
 
