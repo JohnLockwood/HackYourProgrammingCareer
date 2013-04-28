@@ -96,21 +96,20 @@ Once you've signed in by creating your account, you'll want to click the button 
 
 <img src="images/github_setup_button.jpg">
 
-On their [setup page](https://help.github.com/articles/set-up-git), you'll see you can either "Skip the Guide" by installing GitHub
-for Windows, or go through the Guide by clicking the link that says [Download and install the latest version of Git](http://git-scm.com/downloads).  I recommend clicking that link instead of using GitHub for Windows.  This will be a bit more work at first, but it will pay off in the long run.  Installing Git plus the Tortoise SVN Windows client will give you a great setup that includes some of the best command line tools plus what many consider to be the best GUI tool on Windows.
+On their [setup page](https://help.github.com/articles/set-up-git), you'll see you can either "Skip the Guide" by installing GitHub for Windows, or go through the Guide by clicking the link that says 
+[Download and install the latest version of Git](http://git-scm. om/downloads).  I recommend clicking that link instead of using GitHub for Windows.  This will be a bit more work at first, but it will pay off in the long run.  Installing Git plus the Tortoise SVN Windows client will give you a great setup that includes some of the best command line tools plus what many consider to be the best GUI tool on Windows.
 
-When prompted for a directory installing Windows apps -- not just for Git but in general -- I make a habit of installing to a 
-directory without spaces, as it makes tools much easier to use from the command line.  I usually set up a root directory, "C:\apps" to put applications, instead of using the default "Program Files" directory, as shown below:
+When prompted for a directory installing Windows apps -- not just for Git but in general -- I make a habit of installing to a directory without spaces, as it makes tools much easier to use from the command line.  I usually set up a root directory, "C:\apps" to put applications, instead of using the default "Program Files" directory, as shown below:
 
 <img src="images/git_location.jpg" />
 
-The next page will ask you to select components, including an option for Windows Explorer integration.  Here I recommend you select 
-"Simple Context Menu", which will enable "Git Bash Here" and "Git Gui Here" as shown below.  
+The next page will ask you to select components, including an option for Windows Explorer integration.  Here I recommend you select "Simple Context Menu", which will enable "Git Bash Here" and "Git Gui Here" as shown below.  
 
 <img src="images/git_select_components" />
 
-You can select "Use Git Bash Only" or "Run Git from the Windows Command Prompt" -- this is pretty much a matter of taste.  I usually 
-go with "Use Git Bash Only".  On the dialog for configuring line endings, I usually accept the defaults.
+You can select "Use Git Bash Only" or "Run Git from the Windows Command Prompt" -- this is pretty much a matter of taste.  I usually go with "Use Git Bash Only".  On the dialog for configuring line endings, I usually accept the defaults.
+
+Once Git is installed, there's one final step to make your life easier so you won't have to enter your user name and password every time you want to "push or pull" changes (syncronize a local repository with GitHub, or vice versa.  That is, you'll want to generate an SSH key and add it to Github.  Instructions on how to do that are located <a href="https://help.github.com/articles/generating-ssh-keys">here</a>.
 
 ### Your First Repository
 
