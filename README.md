@@ -96,17 +96,25 @@ Once you've signed in by creating your account, you'll want to click the button 
 
 <img src="images/github_setup_button.jpg">
 
-On their [setup page](https://help.github.com/articles/set-up-git), GitHub features a link to "Skip the Guide" by installing GitHub for Windows.  This is the easiest way to install and configure Git on a Windows environment.  Click this link and run the installer.
+On their [setup page](https://help.github.com/articles/set-up-git), you'll see you can either "Skip the Guide" by installing GitHub
+for Windows, or go through the Guide by clicking the link that says [Download and install the latest version of Git](http://git-scm.com/downloads).  I recommend clicking that link instead of using GitHub for Windows.  This will be a bit more work at first, but it will pay off in the long run.  Installing Git plus the Tortoise SVN Windows client will give you a great setup that includes some of the best command line tools plus what many consider to be the best GUI tool on Windows.
 
-When prompted for a directory installing Windows apps, I make a habit of installing to a directory without spaces, as it makes tools much easier to use from the command line.  I usually set up a root directory, "C:\apps" to put applications, instead of using the default "Program Files" directory.
+When prompted for a directory installing Windows apps -- not just for Git but in general -- I make a habit of installing to a 
+directory without spaces, as it makes tools much easier to use from the command line.  I usually set up a root directory, "C:\apps" to put applications, instead of using the default "Program Files" directory, as shown below:
 
-Once you've installed GitHub for Windows, you can sign in using the user name and password of your account.
+<img src="images/git_location.jpg" />
 
-<img src="images/git_windows_page1.jpg">
+The next page will ask you to select components, including an option for Windows Explorer integration.  Here I recommend you select 
+"Simple Context Menu", which will enable "Git Bash Here" and "Git Gui Here" as shown below.  
 
-Then you should press "configure" to write some basic user information to .gitconfig (located in your "Users\YourUsername") directory.
+<img src="images/git_select_components" />
 
-GitHub for Windows provides a fairly user-friendly, graphical tool for working with git.  
+You can select "Use Git Bash Only" or "Run Git from the Windows Command Prompt" -- this is pretty much a matter of taste.  I usually 
+go with "Use Git Bash Only".  On the dialog for configuring line endings, I usually accept the defaults.
+
+### Your First Repository
+
+Once you've configured GitHub for Windows, it will bring you to a page showing you that you have no repositories.  To get a feel for Git, let's start by creating a local repository
 
 ### Forking a Repository
 
