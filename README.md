@@ -3,7 +3,7 @@
 
 <a href="#license">Copyright / License Info</a>
 
-## Chapter 1
+## Chapter 1 
 ## Making a Beginning
 
 This is a book about getting started in programming as a career. It's also a book about software testing and test automation. That may seem a bit strange to you, that a book about a career in programming would also be a book about software testing. You may well imagine that programming is creative and fun, a chance to solve problems all day long, right? Testing, on the other hand, is repetitive and tedious, and the folks in QA (Quality Assurance) are not the most popular guys on the team because they are the bringers of bad news. You might be thinking, "Shouldn't I be reading a book about something creative and fun, not something repetitive and tedious?"
@@ -58,7 +58,12 @@ If you want a job you're not yet qualified for, target your learning to another 
 
 ### Test Automation:  A Programmer's Answer to Career Hacking #1
 
-To understand why test automation is such a killer app for your resume, it helps to understand the difference between "black box testing" and "white box testing".
+To understand why test automation is such a killer app for your resume, it helps to understand the difference between "black box testing" and white box testing".  In software testing, black box testing refers to testing the system without using knowledge of the software source code.  As the name suggests, black box testing means testing the system as a "black box" -- without any information about how the internals of the system work.
+Usually, black box testing is focused on what is called "functional testing" -- testing the behavior (functionality) of a software against a specification for what the software should do.  Unless they're automating their tests or testing a software product that itself is a software delopment tool, black box testers don't need to have any kind of programming experience at all.
+
+White-box testing, in contrast, tests the internal structure of an application. For examples, we've already mentioned test first development, in which programmers write the unit test for the software they're working on first, then write the software to make the unit test passed.  Such unit tests are a form of white box testing.  Similarly, integration testing may test how the various modules behave when they work together.
+
+In general, then, white-box tests tend to be automated tests, whereas black box tests may either be manual or automated.  Although good black-box testers have many of the skills of programmers -- curiosity and a love for solving problems chief among them -- they don't necessarily need to be programmers to do their jobs.  This means that the level of programming skill for an entry level QA job is (on average), lower than the level of skill for an "entry level" programming job.
 
 ## Chapter 2
 ## Let's Git Going 
@@ -113,7 +118,7 @@ Once Git is installed, there's one final step to make your life easier so you wo
 
 ### Your First Repository
 
-Once you've configured GitHub for Windows, it will bring you to a page showing you that you have no repositories.  To get a feel for Git, let's start by creating a local repository
+Once you've configured GitHub for Windows, it will bring you to a page showing you that you have no repositories.  To get a feel for Git, let's start by creating a local repository.
 
 ### Forking a Repository
 
