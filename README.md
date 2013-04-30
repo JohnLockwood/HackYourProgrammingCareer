@@ -56,7 +56,7 @@ Two years later I got the job I wanted as a programmer.
 
 If you want a job you're not yet qualified for, target your learning to another job that's __like__ that job you want, and that lets you do the job you want at least part of the time.
 
-### Test Automation:  A Programmer's Answer to Career Hacking #1
+### Test Automation:  A Programmer's Answer to Career Hacking Tip #1
 
 To understand why test automation is such a killer app for your resume, it helps to understand the difference between "black box testing" and white box testing".  In software testing, black box testing refers to testing the system without using knowledge of the software source code.  As the name suggests, black box testing means testing the system as a "black box" -- without any information about how the internals of the system work.
 Usually, black box testing is focused on what is called "functional testing" -- testing the behavior (functionality) of a software against a specification for what the software should do.  Unless they're automating their tests or testing a software product that itself is a software delopment tool, black box testers don't need to have any kind of programming experience at all.
@@ -64,6 +64,18 @@ Usually, black box testing is focused on what is called "functional testing" -- 
 White-box testing, in contrast, tests the internal structure of an application. For examples, we've already mentioned test first development, in which programmers write the unit test for the software they're working on first, then write the software to make the unit test passed.  Such unit tests are a form of white box testing.  Similarly, integration testing may test how the various modules behave when they work together.
 
 In general, then, white-box tests tend to be automated tests, whereas black box tests may either be manual or automated.  Although good black-box testers have many of the skills of programmers -- curiosity and a love for solving problems chief among them -- they don't necessarily need to be programmers to do their jobs.  This means that the level of programming skill for an entry level QA job is (on average), lower than the level of skill for an "entry level" programming job.
+
+### Other Reasons To Learn Test Automation
+
+The fact that the level of programming skill required to be a tester is lower than the level of programming skill required to be a programmer is one reason why test automation is a great skill to have if you haven't yet landed your first programming job. However, it isn't the only reason to consider learning how to automate tests and how to write unit tests in particular. Here are several more reasons why you should start unit testing now, even if you're just starting to learn programming:
+
+* Unit tests are a great vehicle for code snippets.  You can't learn to swim without getting in the water, and you can't learn to program
+without writing code -- lots and lots of code.  At the same time, the fact that you need to write lots and lots of code to learn how to program doesn't mean you're ready for a large project yet, but it does mean you need to experiment relentlessly on small snippets of code.  Unit tests
+are a great tool for practicing your techniques on small, "demo" applications.  But don't worry -- as your programs grow in complexity, unit tests are a great tool for helping you keep them working well.
+
+* Unit tests serve as a form of documentation. Anyone who's done any unit testing will likely attest to the fact that unit tests help developers and testers understand and document how pieces of the software should work. In recent years, the idea of Behavior Driven Devlopment and tools such as JBehave on Java and RSpec on Ruby have taken this idea a step further by allowing developers to express tests using a more natural sounding lanugage that -- if the hype is to believed -- can serve as a "common language" that can be understood by both businsess analysts and developers.
+
+* Unit tests are a great tool for "driving" code in the debugger.  One of the curious things to me as a self-taught programmer is the extent to which introductory programming books ignore the use of the debugger as a tool of learning, exploration, and, well, let's face it -- debugging!
 
 ## Chapter 2
 ## Let's Git Going 
@@ -125,3 +137,5 @@ Once you've configured GitHub for Windows, it will bring you to a page showing y
 <div style="border:1px solid gray; padding:1em;">
 <a href="#license" /><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a><br />All copies of this work must retain the following copyright notice and links intact:  <a href="https://github.com/JohnLockwood/HackYourProgrammingCareer">Hack Your Programming Career</a> Copyright 2013 John Lockwood and <a href="http://www.particlewave.com">ParticleWave.com<a>.
 </div>
+
+### Chapter 3 A Test First Learning Plan
