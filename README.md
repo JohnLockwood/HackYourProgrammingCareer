@@ -144,7 +144,11 @@ On my local machine, I have what is called a CLONE of the HackYourProgrammingCar
 
 Opening up a "Git Bash" shell, from the root of the repository, I enter:
 
-git commit -m"Working on the Forking This Book Chapter"
+'git commit -m"Working on the Forking This Book Chapter" -a'
+
+Commit applies the changes I've made to the file to the local repository.  The "-a" switch adds the file to the local "staging area" (which is necessary before a commit), and -m allows me to add a descriptive message to the commit.
+
+Now at this point if I type "git status"
 
 <div style="border:1px solid gray; padding:1em;">
 <a href="#license" /><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a><br />All copies of this work must retain the following copyright notice and links intact:  <a href="https://github.com/JohnLockwood/HackYourProgrammingCareer">Hack Your Programming Career</a> Copyright 2013 John Lockwood and <a href="http://www.particlewave.com">ParticleWave.com<a>.
