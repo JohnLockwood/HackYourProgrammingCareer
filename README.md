@@ -1,3 +1,4 @@
+
 # Hack Your Programmer Career:
 # Getting Your Foot in the Door with Test Case Automation
 
@@ -96,7 +97,7 @@ One version control system that's become quite popular in recent years is Git.Gi
 
 Having a Github account allows you to learn about how to use version control in a software team environment, but just as importantly, it allows you to demonstrate that you can use version control in a team environment.
 
-# Career Tip #2
+### Career Hacking Tip #2
 
 Programmers use version control software. Period. Showing up for a programming interview without knowing any kind of version control 
 software is like showing up to a gunfight with a feather duster.
@@ -130,9 +131,20 @@ Once Git is installed, there's one final step to make your life easier so you wo
 
 ### Your First Repository
 
-Once you've configured GitHub for Windows, it will bring you to a page showing you that you have no repositories.  To get a feel for Git, let's start by creating a local repository.
+Once you've configured GitHub for Windows, it will bring you to a page showing you that you have no repositories.  
+To get a feel for Git, let's start by creating a local repository.
 
-### Forking a Repository
+[TODO: More here]
+
+### Get The Samples - Forking This Book
+
+Because I want to make sure you have a chance to practice your Git skills before you get to the interview, and to make sure you always access to the latest samples I may work on, this book is available as a GitHub repository.  Remember that Git is a distributed version control system -- that means that there can be multiple, independent copies of the files for a project.  For example, I am currently typing this book on a file on my computer (currently README.md).  This file is also tracked by a repository I've created on Github: (https://github.com/JohnLockwood/HackYourProgrammingCareer)[https://github.com/JohnLockwood/HackYourProgrammingCareer].  
+
+On my local machine, I have what is called a CLONE of the HackYourProgrammingCareer repository.  To show you how a checkin works, I'll do one now.
+
+Opening up a "Git Bash" shell, from the root of the repository, I enter:
+
+git commit -m"Working on the Forking This Book Chapter"
 
 <div style="border:1px solid gray; padding:1em;">
 <a href="#license" /><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a><br />All copies of this work must retain the following copyright notice and links intact:  <a href="https://github.com/JohnLockwood/HackYourProgrammingCareer">Hack Your Programming Career</a> Copyright 2013 John Lockwood and <a href="http://www.particlewave.com">ParticleWave.com<a>.
