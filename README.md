@@ -148,7 +148,20 @@ Opening up a "Git Bash" shell, from the root of the repository, I enter:
 
 Commit applies the changes I've made to the file to the local repository.  The "-a" switch adds the file to the local "staging area" (which is necessary before a commit), and -m allows me to add a descriptive message to the commit.
 
-Now at this point if I type "git status"
+Now at this point if I type "git status", I'll see a message something like:
+
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+
+What this means is that my local repository is up to date, but it is out of sync with my remote repository.  If you were to make a copy of (https://github.com/JohnLockwood/HackYourProgrammingCareer)[https://github.com/JohnLockwood/HackYourProgrammingCareer] at that point, you would get the copy of the book before I made the change.  In order to syncronize my Github repository with the changes I've made locally, I use:
+
+'git push.'
+
+After this I see the message "Everything up-to-date".  This means my changes have been syncronized with what's on Github.  All is right with the world!
+
+
+
+
 
 <div style="border:1px solid gray; padding:1em;">
 <a href="#license" /><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a><br />All copies of this work must retain the following copyright notice and links intact:  <a href="https://github.com/JohnLockwood/HackYourProgrammingCareer">Hack Your Programming Career</a> Copyright 2013 John Lockwood and <a href="http://www.particlewave.com">ParticleWave.com<a>.
