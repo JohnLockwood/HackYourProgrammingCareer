@@ -150,8 +150,8 @@ Commit applies the changes I've made to the file to the local repository.  The "
 
 Now at this point if I type "git status", I'll see a message something like:
 
-# On branch master
-# Your branch is ahead of 'origin/master' by 1 commit.
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
 
 What this means is that my local repository is up to date, but it is out of sync with my remote repository.  If you were to make a copy of (https://github.com/JohnLockwood/HackYourProgrammingCareer)[https://github.com/JohnLockwood/HackYourProgrammingCareer] at that point, you would get the copy of the book before I made the change.  In order to syncronize my Github repository with the changes I've made locally, I use:
 
